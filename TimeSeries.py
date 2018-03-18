@@ -15,7 +15,7 @@ from statsmodels.tsa.arima_model import ARIMA
 
 # In[2]:
 
-df=pd.read_csv(r'C:\Users\Sourav  Adhikari\Desktop\MorepenLabs.csv', index_col= None)
+df=pd.read_csv(r'C:\Users\<>\Desktop\MorepenLabs.csv', index_col= None)
 df.head()
 
 
@@ -267,7 +267,7 @@ print(forecast)
 
 # In[33]:
 
-series2 =pd.read_csv(r'C:\Users\Sourav  Adhikari\Desktop\MP1.csv', header=0, parse_dates=[0], index_col=0, squeeze= True)
+series2 =pd.read_csv(r'C:\Users\<>\Desktop\MP1.csv', header=0, parse_dates=[0], index_col=0, squeeze= True)
 
 X= series2.values
 size = int(len(X) * 0.66)
